@@ -1,33 +1,39 @@
-# chatroom
+# FreeChat-Web-Mobile
 
-This template should help get you started developing with Vue 3 in Vite.
+## Introduce
 
-## Recommended IDE Setup
+This project provides a Mobile-Web page for a chat tool.I intend to create a simple chat tool to replace w*chat.The tool only provides chat, voice, video and other functions.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Download
 
-## Type Support for `.vue` Imports in TS
+Use the download tool or git tool to download the project code
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+git clone git@github.com:DehaoMeng/FreeChatMobile.git
 ```
 
-### Compile and Hot-Reload for Development
+## Install
+
+First open the project and execute the following command in the terminal
+
+1. Install this project dependent
 
 ```sh
-npm run dev
+pnpm install
 ```
 
-### Type-Check, Compile and Minify for Production
+2. Compile and Hot-Reload for Development
 
 ```sh
-npm run build
+pnpm dev
 ```
+
+3. If you want to compile to `html、css、js`，run this
+
+```sh
+pnpm build
+```
+
+## Usage
+
+Before using, you must config your api configuration. Soon I will upload my backend project for reference.
